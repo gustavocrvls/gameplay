@@ -2,12 +2,11 @@ import React from "react";
 import { View, Text } from "react-native";
 import { styles } from "./styles";
 
-import {Avatar} from '../Avatar';
+import { Avatar } from "../Avatar";
 
 export function Profile() {
   return (
     <View style={styles.container}>
-
       <Avatar urlImage="https://github.com/gustavocrvls.png" />
 
       <View>
